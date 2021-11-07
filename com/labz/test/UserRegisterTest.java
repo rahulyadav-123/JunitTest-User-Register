@@ -16,8 +16,8 @@ public class UserRegisterTest {
 	@Test
 	public void givenLastName_isProper() {
 		UserRegister register = new UserRegister();
-		String actual = register.LastName("Rahul");
-		Assert.assertEquals("Rahul", actual);
+		String actual = register.LastName("Yadav");
+		Assert.assertEquals("Yadav", actual);
 	}
 	@Test
 	public void givenEmailId_isProper() {
@@ -25,7 +25,12 @@ public class UserRegisterTest {
 		String actual = register.emailId("ry219613@gmail.com");
 		Assert.assertEquals("ry219613@gmail.com", actual);
 	}
-
+	@Test
+	public void givenPhoneNumber_isProper() {
+		UserRegister register = new UserRegister();
+		String actual = register.phoneNumber("7385932865");
+		Assert.assertEquals("7385932865", actual);
+	}
 }	
 	
 
