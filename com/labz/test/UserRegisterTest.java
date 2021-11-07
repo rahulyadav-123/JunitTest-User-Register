@@ -10,8 +10,8 @@ public class UserRegisterTest {
 	@Test
 	public void givenFirstName_isProper() {
 		UserRegister register = new UserRegister();
-		String actual = register.firstName("Brijesh");
-		Assert.assertEquals("Brijesh", actual);
+		String actual = register.firstName("Rahul");
+		Assert.assertEquals("Rahul", actual);
 	}
 	
 	
