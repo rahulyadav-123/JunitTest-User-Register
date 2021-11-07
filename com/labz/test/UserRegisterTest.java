@@ -34,8 +34,8 @@ public class UserRegisterTest {
 	@Test
 	public void givenPassword_isProper() {
 		UserRegister register = new UserRegister();
-		String actual = register.password("hHdf1ghrlw");
-		Assert.assertEquals("hHdf1ghrlw", actual);
+		String actual = register.password("hHdf3@ghrlw");
+		Assert.assertEquals("hHdf3@ghrlw", actual);
 	}
 }	
 	
